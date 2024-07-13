@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #edf7fe;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .logo {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    left: 0;
+    margin-left: 10%;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .nav-bar ul {
+    font-size: 1.5rem;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 100px;
+  }
+
+  li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .logIn-logOut {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+
+    button {
+      padding: 20px 50px;
+      border: none;
+      font-family: "Playwrite CU", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      color: white;
+      background-color: black;
+      border-radius: 10px;
+    }
+  }
+}
